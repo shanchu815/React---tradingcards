@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block title %}About Us{% endblock %}
+
+{% block js %}
+<script src="/static/js/about.jsx" type="text/jsx"></script>
+<!-- make sure this script line pulls from the about.jsx file! -->
+{% endblock %}
+
+{% block body %}
+<!-- put your names & githubs profile links here -->
+<!-- add a redirect link back to homepage -->
+<!-- this info goes into the div ourinfo via the about.jsx code -->
+<div id="ourinfo"></div>
+{% endblock %}
+
+<!-- <a href="http://www.github.com/hackbrightacademy" target="_blank" rel="noreferrer">
+target="_blank" will make the link open up in a new window/tab
+rel="noreferrer" makes the referrer unknown (server of the target will not know where you came from)
+this doesnt affect your browser history -->
